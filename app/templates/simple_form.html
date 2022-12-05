@@ -1,0 +1,7 @@
+<form method="post" action="/simple-form">
+    {{form.csrf_token}}
+    <p>{{form.name.label}} {{form.name}}</p>
+    <p>{{form.age.label}} {{form.age}}</p>
+    <p>{{form.bio.label}} {{form.bio}}</p>
+    <p>{{form.submit.label}} {{form.submit}}</p>
+</form>
